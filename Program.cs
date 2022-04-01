@@ -6,7 +6,8 @@ namespace VendingMachineTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Making new instance of the application manager
+            applicationManager am = new applicationManager();
         }
     }
 }
